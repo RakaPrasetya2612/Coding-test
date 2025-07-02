@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Mengatur karakter agar semua karakter bisa tampil-->
+  <meta charset="UTF-8">
+  <!-- Membuat tampilan responsif di semua perangkat -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Judul tab browser -->
+  <title>Bravo</title>
+  <!-- Menghubungkan file CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <div class="logo">
+      <!-- Logo website -->
+      <img src="img/logo.png" alt="Bravo Logo">
+      <!-- Nama website dan slogan website -->
+      <span>Bravo <small>INTERNATIONAL ONLINE NEWS</small></span>
+    </div>
+    <div class="header-icons">
+      <div class="lang-account">
+        <!-- bahasa -->
+        <button>ENGLISH</button>
+        <!-- akun -->
+        <button>ACCOUNT</button>
+        <!-- pencarian -->
+        <input type="text" placeholder="SEARCH">
+      </div>
+    </div>
+    <!-- Tombol menu untuk tampilan mobile -->
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </header>
+  <main>
+    <!-- sidebar kategori berita -->
+    <aside id="sidebar">
+      <div class="category-title">CATEGORY</div>
+      <!-- kategori berita -->
+      <button>SPORT</button>
+      <button>POLITICAL</button>
+      <button>ECONOMY</button>
+      <button>FILM</button>
+      <button>E-SPORT</button>
+      <button>CRIMINAL</button>
+      <button>TECHNOLOGY</button>
+      <button>ARTIST</button>
+    </aside>
+    <!-- konten utama -->
+    <section class="content">
+      <!-- Berita utama -->
+      <div class="main-news">
+        <img src="img/news1.jpg" alt="Main News">
+      </div>
+      <!-- Berita lain -->
+      <div class="other-news">
+        <img src="img/news2.jpg" alt="Other News">
+      </div>
+    </section>
+    <!-- Sidebar kanan untuk berita terbaru -->
+    <aside class="latest-news">
+      <div class="latest-title">LATEST NEWS</div>
+      <!-- berita terbaru -->
+      <button>ISRAEL VS IRAN</button>
+      <button class="highlight">WW3</button>
+      <button>PRAY FOR Türkiye</button>
+      <button>CHINA VS BAHRAIN</button>
+      <button>CR7 RITIRE</button>
+    </aside>
+  </main>
+  <!-- footer -->
+  <footer>
+    <div class="footer-quote">
+      <em>
+        The principle of our journalism is not journalism that favors one group. We believe that unity, as real as it is, is not the monopoly of one party. We believe that the task of the press is not to spread prejudice, but rather to eliminate it, not to sow hatred, but to communicate mutual understanding. Our journalism is not journalism to curse or pout, nor is it intended to flatter or serve. - March 6, 1971
+      </em>
+    </div>
+    <div class="footer-info">
+      <b>Information</b>
+      <ul>
+        <li>ABOUT US</li>
+        <li>CYBER MEDIA GUIDELINES</li>
+        <li>TERM OF SERVICE</li>
+      </ul>
+    </div>
+  </footer>
+  <!-- Menghubungkan file JavaScript agar lebih interaktid dgn perangkat mobilr -->
+  <script src="script.js"></script>
+</body>
+</html>
